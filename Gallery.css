@@ -1,0 +1,151 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+.logo-nav
+{
+    width: 220px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.nav-item 
+{
+    margin: 20px;
+}
+.nav-icons i
+{
+    margin: 10px;
+}
+.category-slide
+{
+  height: 60vh;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Semester1-Hair-Loss-Projet/Images/gallery-slide.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.carousel-caption h5
+{
+   font-size: 40px;
+}
+.carousel-inner
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.gallery-section #our{
+    color: rgb(157, 214, 66);
+    display: inline-block;
+    font-size: 42px;
+    font-weight: bold;
+  }
+  
+  .gallery-section span #gallery
+  {
+    position: relative;
+    left: 8px;
+    margin: 13px;
+    font-size: 42px;
+    display: inline-block;
+    font-weight: bold;
+    color:black;
+    font-weight: 400;
+  }
+  .gallery-section #theme{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.466);
+    letter-spacing: 8px;
+  }
+  .box 
+  {
+    position: relative;
+    overflow: hidden;
+    margin-top: 5px;
+    cursor: pointer;
+  
+  }
+  .boxH
+  {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 80%;
+    height: 250px;
+    left: -80%;
+    bottom: 0;
+    overflow:hidden;
+    box-sizing: border-box;
+      transition: all 0.5s;
+  }
+  .boxH #slide-pera{
+    position: relative;
+    top: 60%;
+    color: white;
+    border-top: 1px solid white;
+  }
+  .box:hover .boxH
+  {
+    
+    left: 10%;
+  }
+  .boxH a 
+  {
+    text-decoration: none;
+    position: relative;
+    top: 40%;
+    color: white;
+    border-radius: 5px;
+    font-size: 30px;
+    transition: all 0.50s;
+    
+    
+  }
+  .boxH a:hover
+  {
+    background-color:rgba(84, 245, 10, 0.466);
+    border: 1px solid white;
+  }
+  .box img
+  {
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height: 250px;
+  }
+  /* Footer Section */
+.fot-logo img
+{
+  margin-top: 5px;
+  width: 300px;
+  height: 100px;
+  color: #fff;
+}
+.footer-bkg
+{
+  background-image: linear-gradient(rgba(0,0,0,1.0),rgba(0,0,0,0.5)), url(../Semester1-Hair-Loss-Projet/Images/footer\ picture.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.foot-menu h4
+{
+  color: white;
+  font-weight: bold;
+}
+.fot-logo a
+{
+  color: white;
+  text-decoration: none;
+}
+.foot-menu a
+{
+  color: #bbb;
+  text-decoration: none;
+}
+.foot-menu a:hover
+{
+  color: white;
+}

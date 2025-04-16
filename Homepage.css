@@ -1,0 +1,748 @@
+*
+{
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Open Sans', sans-serif;
+}
+.logo-nav
+{
+    width: 220px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.nav-item
+{
+  margin: 10px;
+}
+.carousel-item {
+  /* height: 100vh;
+  min-height: 300px; */
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-caption {
+  bottom: 180px;
+}
+
+.carousel-caption h5 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+.carousel-caption p {
+  width: 75%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+.caro-btn button
+{
+  background-color: #abc502;
+  padding: 10px;
+  border: none;
+  margin: 10px;
+  border-radius: 5px;
+}
+.caro-btn button:hover
+{
+  color: black;
+  transition: 0.5s;
+  background-color: greenyellow;
+  border: 1px solid yellow;
+}
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-toggler {
+  background: #fff;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.nav-link {
+  padding: .2rem 1rem;
+}
+
+.nav-link.active,.nav-link:focus{
+  color: #fff;
+}
+
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+/* Homepage media */
+.back_color
+{
+ background-color:gray ;
+}
+@media (max-width:500px) {
+  .carousel-caption
+  {
+    margin: 0;
+    position: absolute;
+    top: 62px;
+    left: 53px;
+  }
+  .caro-btn button
+  {
+    margin-top: -140px;
+    font-weight: 500;
+    font-size: 13px;
+  } 
+    .carousel-caption h5
+  {
+     font-size: 20px;
+
+  }
+   
+  .carousel-caption p 
+  {
+  font-size: 16px;
+  }
+  .card-top img
+  {
+    width: 300px;
+  }
+}
+
+
+
+@media (max-width:375px) {
+  .logo-nav
+  {
+    width: 180px;
+    height: 64px;
+  }
+  .carousel-caption
+  {
+    margin: 0;
+    position: absolute;
+    top: 62px;
+    left: 53px;
+  }
+  .caro-btn button
+  {
+    margin-top: -140px;
+    font-weight: 500;
+    font-size: 10px;
+  } 
+    .carousel-caption h5
+  {
+     font-size: 15px;
+
+  }
+   
+  .carousel-caption p 
+  {
+  font-size: 10px;
+  }
+  .card-top img
+  {
+    width: 300px;
+  }
+
+}
+@media (max-width:400px) {
+  .logo-nav
+  {
+    width: 180px;
+    height: 64px;
+  }
+  .carousel-caption
+  {
+    margin: 0;
+    position: absolute;
+    top: 62px;
+    left: 53px;
+  }
+  .caro-btn button
+  {
+    margin-top: -140px;
+    font-weight: 500;
+    font-size: 10px;
+  } 
+    .carousel-caption h5
+  {
+     font-size: 15px;
+
+  }
+   
+  .carousel-caption p 
+  {
+  font-size: 10px;
+  }
+  .card-top img
+  {
+    width: 300px;
+  }
+}
+@media (max-width:360px) {
+  .logo-nav
+  {
+    width: 180px;
+    height: 64px;
+  }
+  .carousel-caption
+  {
+    margin: 0;
+    position: absolute;
+    top: 62px;
+    left: 53px;
+  }
+  .caro-btn button
+  {
+    margin-top: -140px;
+    font-weight: 500;
+    font-size: 10px;
+  } 
+    .carousel-caption h5
+  {
+     font-size: 15px;
+     margin-top: 5px;
+  }
+   
+  .carousel-caption p 
+  {
+  font-size: 10px;
+  }
+  .card-top img
+  {
+    width: 300px;
+  }
+}
+@media (max-width:420px) {
+  .logo-nav
+  {
+    width: 180px;
+    height: 64px;
+  }
+  .carousel-caption
+  {
+    margin: 0;
+    position: absolute;
+    top: 62px;
+    left: 53px;
+  }
+  .caro-btn button
+  {
+    margin-top: -140px;
+    font-weight: 500;
+    font-size: 10px;
+  } 
+    .carousel-caption h5
+  {
+     font-size: 15px;
+  }
+   
+  .carousel-caption p 
+  {
+  font-size: 10px;
+  }
+  .card-top img
+  {
+    width: 300px;
+  }
+}
+/* ignore the code below */
+
+.link-area
+{
+  position:fixed;
+  bottom:20px;
+  left:20px;  
+  padding:15px;
+  border-radius:40px;
+  background:tomato;
+}
+.link-area a
+{
+  text-decoration:none;
+  color:#fff;
+  font-size:25px;
+}
+
+/* banner css (ammar)*/
+/* section1 */
+.class-section
+{
+  background: url(../Semester1-Hair-Loss-Projet/Images/shop\ table.jpg);
+  background-size: cover;
+  padding: 26px;
+}
+#open{
+    color: #abc502;
+    font-size: 30px;
+    font-weight: 700;
+}
+#check
+{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+span
+{
+    display: inline-block;
+    position: relative;
+    left: -20px;
+    font-weight: 700;
+    
+}
+p
+{
+    position: relative;
+    left: 0;
+    color: white;
+}
+.col-md-6 span{
+    position: relative;
+    left: 20px;
+}
+.btn
+{
+    position: relative;
+    bottom: 30px;
+    padding: 15px;
+    border: none;
+    /* font-weight: 800; */
+    color:white;
+    background-color: #abc502;
+    width: 200px;
+    left: 5%;
+    transition: all 0.50s;
+}
+button :hover
+{
+    background-color: green;
+}
+h3
+{
+    position: relative;
+    left: 5%;
+}
+
+/* section2 */
+.col-md-6 h2{
+    display: inline-block;
+    position: relative;
+    left: 5%;
+    /* font-size: 15px; */
+}
+.class-section2
+{
+    overflow: hidden;
+    padding: 26px;
+}
+.class-section2 h5{
+    position: relative;
+    letter-spacing: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #abc502;
+    left: 5%;
+}
+.class-section2 h2{
+    font-size: 25px;
+    font-weight: 700;
+}
+#sec2{
+    color: rgba(0, 0, 0, 0.507);
+}
+div.pic
+{
+    position: relative;
+    bottom: 20px;
+    margin: 8px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    /* display: flex; */
+    height: 130px;
+}
+div.pic img
+{
+    position: absolute;
+    width: 100px;
+    border-radius: 50%;
+    height: 110px;
+    background-size: cover;
+    cursor: pointer;
+    
+}
+/* section-clients */
+
+.section-clients p 
+{
+    background-size: cover;
+    font-size: 40px;
+    color: #abc502;
+}
+.section-clients h5{
+    font-weight: 700;
+    font-size: 18px;
+}
+/* Sami Pricing */
+.img-box img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  
+}
+.img-box{
+  display: flex;
+  margin: 10px;
+}
+.headr span{
+    color: #abc502;
+    font-size: 30px;
+    font-weight: 800;
+}
+.headr h5{
+  font-size: 30px;
+  font-weight: 800;
+}
+.headr p{
+  font-size: 20px;
+   color: darkgray;
+}
+.card-top{
+  padding: 20px;
+  /* border: 2px solid black; */
+}
+.card-top h5{
+  font-size: 30px;
+}
+.card-top span{
+   color: #abc502;
+}
+.card-top button{
+   background-color: #abc502;
+   color: white;
+   border: none;
+   padding: 10px;
+}
+.card-top button:hover
+{
+  color: black;
+  transition: 0.5s;
+}
+.card2 h1{
+  color: rgb(117, 202, 5);
+  font-weight: 900;
+}
+.last-btn button{
+  width: 100%;
+  height: 50px;
+  background-color: #abc502;
+  color: white;
+  border: none;
+  font-size: 20px;
+}
+.last-btn button:hover
+{
+  color: black;
+  transition: 0.5s;
+}
+.last-btn{
+  line-height: 1.7;
+}
+.card1{
+  margin-top: 20px;
+}
+.card2{
+  margin-top: 20px;
+}
+.card3{
+  margin-top: 30px;
+}
+.card4{
+  margin-top: 30px;
+}
+.price{
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.price span{
+  font-size: 50px;
+  font-weight: bold;
+  color: #abc502;
+}
+
+/* Reservation Form*/
+.reservation
+{
+  background-image: url(../Semester1-Hair-Loss-Projet/Images/reservation-from\ image.jpg);
+  position: relative;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+.form
+{
+  background-color: rgba(255, 255, 255, 0.123);
+  position: absolute;
+  box-shadow: 0px 0px 0px 0px rgb(157, 214, 66);
+  bottom: -3px;
+  top: -4px;
+  left: -4px;
+}
+
+#reser-head
+{
+  color:rgb(157, 214, 66);
+  font-size: 30px;
+  top: 20px;
+  display: inline;
+  float: left;
+  padding-right: 15px;
+    
+}
+.btn-sbt{
+  position: relative;
+  padding: 15px;
+  border: none;
+  color:white;
+  background-color: rgb(85, 245, 10);
+  width: 174px;
+  margin-left: 17px;
+  transition: all 0.50s;
+}
+.input5
+{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* <!-- .....GALLERY SECTION... --> */
+
+.gallery-section #our{
+  color: #abc502;
+  display: inline-block;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.gallery-section span #gallery
+{
+  position: relative;
+  left: 33px;
+  margin: 13px;
+  font-size: 42px;
+  display: inline-block;
+  font-weight: 700;
+  color:black;
+  font-weight: 700;
+}
+.gallery-section #theme{
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.466);
+  letter-spacing: 8px;
+}
+.box 
+{
+  position: relative;
+  overflow: hidden;
+  margin-top: 5px;
+  cursor: pointer;
+
+}
+.boxH
+{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.705);
+  width: 100%;
+  height: 300px;
+  left: -100%;
+  bottom: 0;
+  overflow:hidden;
+  box-sizing: border-box;
+    transition: all 0.5s;
+}
+.boxH #slide-pera{
+  position: relative;
+  top: 60%;
+  color: white;
+  border-top: 1px solid white;
+}
+.box:hover .boxH
+{
+  
+  left:0;
+}
+.boxH a 
+{
+  text-decoration: none;
+  position: relative;
+  top: 40%;
+  color: white;
+  border-radius: 5px;
+  font-size: 30px;
+  transition: all 0.50s;
+  
+  
+}
+.boxH a:hover
+{
+  background-color: #abc502;
+  border: 1px solid white;
+}
+.box img
+{
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+}
+/* Sami (Services)*/
+.services-content img
+{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+.services-section h5 {
+  color: green;
+  padding-right: 5px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.services-content h5
+{
+  padding: 10px;
+  font-size: 25px;
+}
+/* Sami Blogs Section */
+/* .card1
+{
+  background-image: url(../Images/images1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  margin-top: 4.5rem!important;
+  width: 100%;
+}
+.card1 p{
+  color: white;
+}
+.card1 h1{
+  color: white;
+}
+button {
+  background-color: rgb(149, 201, 8);
+  border: none;
+  color: white;
+  padding: 12px;
+}
+button:hover{
+  background-color: rgb(0, 0, 0);
+}
+.card2
+{
+  padding: 10px;
+  text-align: center;
+  margin: 0%;
+  padding: 0%;
+}
+.card_inner
+{
+  background-color: aliceblue;
+}
+.card2 img 
+{
+  padding: 0;
+  height: 300px;
+  width: 100%;
+}
+.card3 img 
+{
+  height: 300px;
+  width: 100%;
+}
+.card2 h1
+{
+  font-size: 20px;
+}
+.card2 p
+{
+  color: rgb(161, 161, 161);
+}
+.card3 h1
+{
+  font-size: 20px;
+}
+span
+{
+  color: rgb(149, 201, 8);
+} */
+/* Footer Section */
+.fot-logo img
+{
+  margin-top: 5px;
+  width: 300px;
+  height: 100px;
+  color: #fff;
+}
+.footer-bkg
+{
+  background-image: linear-gradient(rgba(0,0,0,1.0),rgba(0,0,0,0.5)), url(../Semester1-Hair-Loss-Projet/Images/footer\ picture.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.foot-menu h4
+{
+  color: white;
+  font-weight: 900;
+}
+.fot-logo a
+{
+  color: white;
+  text-decoration: none;
+}
+.foot-menu a
+{
+  color: #bbb;
+  text-decoration: none;
+}
+.foot-menu a:hover
+{
+  color: white;
+  margin-top: 5px;
+}
+.footer-icons a:hover
+{
+  background-color: grey
+}
+.nav-active 
+{
+  background-color:#3a3a3a;
+  box-shadow: 5px -1px 12px -5px grey;
+}

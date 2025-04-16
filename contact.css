@@ -1,0 +1,124 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+.logo-nav
+{
+    width: 220px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.nav-item 
+{
+    margin: 20px;
+}
+.nav-icons i
+{
+    margin: 10px;
+}
+.category-slide
+{
+  height: 60vh;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Semester1-Hair-Loss-Projet/Images/gallery-slide.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.msg-area
+{
+    border: 3px solid greenyellow;
+    border-radius: 5px;
+    padding: 10px;
+}
+.btn-sbt 
+{
+    padding: 10px 50px;
+    background-color: #abc502;
+    border: 1px solid #abc502;
+}
+.btn-submit button
+{
+  padding: 10px 50px;
+  background-color: #abc502;
+  border: 1px solid #abc502;
+}
+.btn-submit button:hover
+{
+  color: black;
+  transition: 0.5s;
+  background-color: greenyellow;
+  border: 1px solid yellow;
+}
+.btn-submit 
+{
+    margin-top: 60px;
+}
+.contact-info
+{
+    background-color: #e4e4e4;
+}
+.phonebox h6 
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.phonebox p
+{
+    color: #808080;
+}
+.contact-form
+{
+    margin-top: 60px;
+}
+.contactform-div h4
+{
+    font-size: 40px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+.contactform-div p
+{
+    color: #808080;
+    font-size: 20px;
+}
+.gmap_canvas
+{
+    height: 500px;
+}
+/* Footer Section */
+.fot-logo img
+{
+  margin-top: 5px;
+  width: 300px;
+  height: 100px;
+  color: #fff;
+}
+.footer-bkg
+{
+  background-image: linear-gradient(rgba(0,0,0,1.0),rgba(0,0,0,0.5)), url(../Semester1-Hair-Loss-Projet/Images/footer\ picture.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.foot-menu h4
+{
+  color: white;
+  font-weight: bold;
+}
+.fot-logo a
+{
+  color: white;
+  text-decoration: none;
+}
+.foot-menu a
+{
+  color: #bbb;
+  text-decoration: none;
+}
+.foot-menu a:hover
+{
+  color: white;
+}

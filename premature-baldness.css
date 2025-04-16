@@ -1,0 +1,275 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+.logo-nav
+{
+    width: 220px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.nav-item 
+{
+    margin: 20px;
+}
+.nav-icons i
+{
+    margin: 10px;
+}
+.growthR
+{
+    background: url(../Semester1-Hair-Loss-Projet/Images/gorwth1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 50px;
+}
+.growthR .growthheading
+{
+    margin: 80px;
+    font-size: 47px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: white;
+    padding-top: 100px;
+    margin-top: 140px;
+}
+.growthR .homeanchor
+{
+    position: relative;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    padding-left: 83px;
+    bottom: 93px;
+}
+.growthR .homeanchor:hover
+{
+    color: orange;
+}
+
+.growth2 .firsthead
+{
+
+    font-weight: bold;
+
+}
+.growth2 .secondhead
+{
+    color: orange;
+}
+
+.growth3 .secondhead
+{
+    font-weight: bold;
+}
+
+.col3 .laser
+{
+    font-size: 28px;
+    text-decoration: none;
+    color: rgb(0, 204, 255);
+    transition: all 0.50s;
+}
+.col3 .laser:hover
+{
+    color: orange;
+}
+.growth4 .bluebtn
+{
+    border: none;
+    background-color:rgb(0, 204, 255); 
+    padding: 10px;
+    width: 180px;
+    border-radius: 20px;
+     box-shadow: 2px 2px 2px 2px rgb(174, 225, 236);
+     color: white;
+     font-weight: 800;
+     font-size: 18px;
+     transition: all 0.50s;
+}
+.growth4 .bluebtn:hover
+{
+ background-color: rgb(5, 118, 146);
+}
+
+.smileman
+{
+    padding: 50px;
+}
+
+.smileman .blackbtn
+{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    padding: 12px;
+    box-shadow: 3px 4px 3px 2px rgb(99, 96, 96);
+    transition: all 0.50s;
+}
+.smileman .blackbtn:hover
+{
+    box-shadow: 0 0 0 0 rgb(99, 96, 96);
+}
+
+.smileman .smilehead
+{
+    font-weight: bold;
+}
+.smilemanpic
+{
+    background: url(../Semester1-Hair-Loss-Projet/Images/smile-man.png);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 44px;
+}
+
+.smileman  .smilebluehead
+{
+    font-size: 26px;
+    text-decoration: none;
+    font-weight: 500;
+    color: orange;
+}
+
+.growth5 .gro5head
+{
+    font-weight: bold;
+}
+
+.col4 .laser
+{
+    font-size: 28px;
+    text-decoration: none;
+    color: rgb(0, 204, 255);
+    transition: all 0.50s;
+}
+.col4 .laser:hover
+{
+    color: orange;
+}
+.growth4 .bluebtn2
+{
+    border: none;
+    background-color:rgb(0, 204, 255); 
+    padding: 10px;
+    width: 210px;
+    border-radius: 20px;
+     box-shadow: 2px 2px 2px 2px rgb(174, 225, 236);
+     color: white;
+     font-weight: 800;
+     font-size: 18px;
+     transition: all 0.50s;
+}
+.growth4 .bluebtn2:hover
+{
+    background-color: rgb(5, 118, 146);
+}
+.round .roundimg
+{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+}
+.roundimg img
+{
+    width: 100%;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.round .dott
+{
+    color:rgb(0, 204, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.round .name{
+    font-weight: bold;
+}
+.final .lastop
+{
+    color: white;
+}
+.final .last2
+{
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+
+.final .blackbtn
+{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    padding: 12px;
+    box-shadow: 3px 4px 3px 2px rgb(99, 96, 96);
+    transition: all 0.50s;
+}
+.final .blackbtn:hover
+{
+    box-shadow: 0 0 0 0 rgb(99, 96, 96);
+}
+.final
+{
+    background-color:orange;
+}
+/* Footer Section */
+.fot-logo img
+{
+  margin-top: 5px;
+  width: 300px;
+  height: 100px;
+  color: #fff;
+}
+.footer-bkg
+{
+  background-image: linear-gradient(rgba(0,0,0,1.0),rgba(0,0,0,0.5)), url(../Semester1-Hair-Loss-Projet/Images/footer\ picture.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.foot-menu h4
+{
+  color: white;
+  font-weight: 900;
+}
+.fot-logo a
+{
+  color: white;
+  text-decoration: none;
+}
+.foot-menu a
+{
+  color: #bbb;
+  text-decoration: none;
+}
+.foot-menu a:hover
+{
+  color: white;
+}
+@media (max-width:400px) {
+    .smilemanpic ,.growthR
+    {
+        padding: 0%;
+      background-size: 100% 70%;
+    }
+}

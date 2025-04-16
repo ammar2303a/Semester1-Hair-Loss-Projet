@@ -1,0 +1,384 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+.logo-nav
+{
+    width: 220px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.nav-item 
+{
+    margin: 20px;
+}
+.nav-icons i
+{
+    margin: 10px;
+}
+.hairbreak
+{
+    color: orange;
+}
+.hairdiv .hairloss
+{
+    margin: 130px;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: white;
+}
+.hairdiv
+{
+    position: relative;
+    background: url(../Semester1-Hair-Loss-Projet/Images/banner\ image\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    
+}
+
+.hairdiv .homeanchor
+{
+    /* padding-left: 20px; */
+    position: relative;
+    /* left: 40px; */
+    margin-bottom: 10px;
+    text-decoration: none;
+    color:white;
+    padding-left: 134px;
+    bottom: 145px;
+}
+
+.hairdiv .homeanchor:hover
+{
+    color: rgb(216, 153, 57);
+}
+.hairdiv .losshair
+{
+    position: relative;
+    color:white;
+    bottom: 145px;
+}
+/* ......//////...LIFE STYLE///////////. */
+
+.lifestyle .boxstyelePera
+{
+    display: inline;
+    padding: 12px;
+    /* padding-right: 58px; */
+    /* margin: 10px; */
+    font-size: 14px;
+
+    background-color: rgba(248, 243, 243, 0.534);
+   
+}
+
+.lifestyle .boxstyelePera1
+{
+    display: inline;
+    padding: 12px;
+   
+    /* margin: 10px; */
+    font-size: 14px;
+}
+.lifestyle .button
+{
+    
+    width: 180px;
+    height: 51px;
+    border: none;
+    background-color: rgb(99, 158, 10);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    transition: all .50s;
+}
+.lifestyle .button:hover
+{
+    background-color: greenyellow;
+    border: 1px solid yellow;
+    color: black;
+    transition: 0.5s;
+}
+/* ////.....DAMAGE HAIR///...... */
+
+.damagehair
+{
+    text-align: center;
+    background: url(../Semester1-Hair-Loss-Projet/Images/footer\ picture.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  
+}
+.damagehair .oneClick
+{
+    float: right;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-right: 12px;
+  
+    color: white;
+    margin: 60px;
+    display: inline;
+}
+.damagehair .start
+{
+    /* float: right; */
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* display: inline; */
+    /* font-weight: bold; */
+}
+.damagehair .bttn{
+    width: 220px;
+    height: 61px;
+    border: none;
+    background-color: rgb(109, 155, 40);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    transition: all .50s;
+}
+.damagehair .bttn:hover{
+    background-color: greenyellow;
+   border: 1px solid white;
+}
+/* //...MALE FEMALE SECTION///..... */
+
+.malediv
+{
+    background-color: rgb(238, 228, 228);
+    padding: 55px;
+}
+.malediv .malebutton 
+{
+    width: 180px;
+    height: 41px;
+    border: none;
+    background-color: rgb(109, 155, 40);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    transition: all .50s;
+}
+.malediv .malebutton:hover
+{
+    background-color: greenyellow;
+    color: black;
+    transition: 0.5s;
+}
+
+.col-md-6 img
+{
+   
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.female img
+{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+   
+}
+
+/* .....////CARD/////////. */
+
+.greycolor
+{
+    background-color: rgb(238, 228, 228);
+    padding: 100px;
+}
+ .hairnutriation .Nutrition
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+.cardimage img{
+
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.cardimage .foods
+{
+    font-size: 20px;
+    color: black;
+}
+.cardimage .these
+{
+    text-decoration: none;
+}
+.cardimage .calender
+{
+    border-radius: 50%;
+    padding: 5px;
+    color: orange;
+    border: 2px solid orange;
+}
+.cardimage .april
+{
+    text-decoration: none;
+    color: orange;
+    font-size: 12px;
+}
+.cardimage .Cindyj
+{
+    text-decoration: none;
+    color: rgba(31, 30, 30, 0.829);
+    font-weight: 400;
+}
+.cardimage .transplant
+{
+    font-size: 14px;
+    color: rgba(31, 30, 30, 0.829);
+    font-weight: 400;
+}
+.cardfoot .cardbtn
+{
+    width: 165px;
+    height: 61px;
+    border: none;
+    background-color: rgb(109, 155, 40);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;   
+    transition: all .50s;
+}
+.cardfoot .cardbtn:hover
+{
+    background-color: greenyellow;
+}
+
+/* ....///////.....//..../ */
+
+.backpic
+{
+    background: url(../Semester1-Hair-Loss-Projet/Images/wp8440878-girl-brown-hair-wallpapers.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding: 8px; */
+
+    width: 100%;
+}
+.arrow{
+    width: 360px;
+   padding:12px;
+    background-color: rgb(238, 228, 228);
+}
+.adobepic .Treatment{
+    font-family:serif;
+    font-weight: 700;
+}
+.arrow .arrowbtn
+{
+    width: 40px;
+    border: none;
+    background-color:white;
+}
+.arrow .arrowbtn:hover
+{
+    background-color: rgb(109, 155, 40);
+}
+.arrow .arr{
+    color: black;
+}
+.arrow .arrowbtn:hover .arr
+{
+    color: white;
+}
+
+.arrow .arr1{
+    color: white;
+    background-color: rgb(109, 155, 40);
+    padding: 10px;
+    padding-left: 10px;
+}
+
+.arrow .anatomy
+{
+    display: inline;
+    padding-left: 20px;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+}
+/* //////.....FOOTER////..... */
+.logopng img
+{
+    width: 200px;
+    height: 80px;
+}
+.footerabout .footab{
+    font-family: initial;
+    font-weight: 800;
+}
+.footernwes .inp
+{
+    border: none;
+
+}
+.input .arr
+{
+    color: black;
+    background-color:(white);
+    padding: 6px;
+    /* padding-left: 10px; */
+   
+}
+.input .arrowbtn:hover .arr 
+{
+    color: black;
+}
+.input .arrowbtn:hover
+{
+    background-color: greenyellow;
+}
+.input .arrowbtn
+{
+    border: none;
+}
+/* Footer Section */
+.fot-logo img
+{
+  margin-top: 5px;
+  width: 300px;
+  height: 100px;
+  color: #fff;
+}
+.footer-bkg
+{
+  background-image: linear-gradient(rgba(0,0,0,1.0),rgba(0,0,0,0.5)), url(../Semester1-Hair-Loss-Projet/Images/footer\ picture.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.foot-menu h4
+{
+  color: white;
+  font-weight: 900;
+}
+.fot-logo a
+{
+  color: white;
+  text-decoration: none;
+}
+.foot-menu a
+{
+  color: #bbb;
+  text-decoration: none;
+}
+.foot-menu a:hover
+{
+  color: white;
+}

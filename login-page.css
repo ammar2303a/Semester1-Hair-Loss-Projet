@@ -1,0 +1,90 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+.logo-nav
+{
+    width: 220px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.nav-item 
+{
+    margin: 20px;
+}
+.nav-icons i
+{
+    margin: 10px;
+}
+.category-slide
+{
+  height: 60vh;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Images/gallery-slide.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.top-heading{
+    color: rgb(100, 100, 100);
+}
+#login-btn{
+    background-color: black;
+    padding: 10px;
+    width: 100px;
+}
+.form-control{
+    border: none;
+    background-color: rgb(235, 234, 234);
+}
+.link a{
+    color: rgb(121, 199, 5);
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.bttn2 {
+    color: white;
+    margin-top: 10px;
+    padding: 15px;
+}
+.bttn3{
+    color: white;
+    margin-top: 10px;
+    padding: 15px;
+}
+/* Footer Section */
+.fot-logo img
+{
+  margin-top: 5px;
+  width: 300px;
+  height: 100px;
+  color: #fff;
+}
+.footer-bkg
+{
+  background-image: linear-gradient(rgba(0,0,0,1.0),rgba(0,0,0,0.5)), url(../Images/footer\ picture.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.foot-menu h4
+{
+  color: white;
+  font-weight: 900;
+}
+.fot-logo a
+{
+  color: white;
+  text-decoration: none;
+}
+.foot-menu a
+{
+  color: #bbb;
+  text-decoration: none;
+}
+.foot-menu a:hover
+{
+  color: white;
+}

@@ -1,0 +1,148 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+.logo-nav
+{
+    width: 220px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.nav-item 
+{
+    margin: 20px;
+}
+.nav-icons i
+{
+    margin: 10px;
+}
+.grayhair 
+{
+    background: url(../Semester1-Hair-Loss-Projet/Images/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    /* padding: 40px; */
+}
+.grayhair .grayHeading
+{
+    margin: 75px;
+    font-size: 59px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: orange;
+    margin-top: 130px;
+}
+.grayhair  .grayanchor
+{
+        /* padding-left: 20px; */
+        position: relative;
+        /* left: 40px; */
+        margin-bottom: 10px;
+        text-decoration: none;
+        color:white;
+        padding-left: 134px;
+        bottom: 80px;
+    }
+    .grayhair  .grayanchor:hover
+    {
+        color: orange;
+    }
+
+    .grayingcouses .button
+    {
+        width: 180px;
+        height: 51px;
+        border: none;
+        background-color: rgb(99, 158, 10);
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        transition: all .50s;
+    }
+    .grayingcouses .button:hover
+    {
+        background-color: greenyellow;
+        border: 1px solid yellow;
+        color: black;
+        transition: 0.5s;
+    }
+
+    .imagbox img
+    {
+        background-size: cover;
+        width: 100%;
+        background-position: center;
+        height: 100%;
+    }
+.imagbox1 img
+{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+
+}
+.fourbox .button{
+
+    width: 180px;
+    height: 41px;
+    border: none;
+    background-color: rgb(109, 155, 40);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    transition: all .50s;
+}
+.fourbox .button:hover
+{
+    background-color: greenyellow;
+    border: 1px solid yellow;
+    color: black;
+    transition: 0.5s;
+   
+}
+.fourbox
+{
+    background-color: rgb(238, 228, 228);
+
+}
+
+/* Footer Section */
+.fot-logo img
+{
+  margin-top: 5px;
+  width: 300px;
+  height: 100px;
+  color: #fff;
+}
+.footer-bkg
+{
+  background-image: linear-gradient(rgba(0,0,0,1.0),rgba(0,0,0,0.5)), url(../Semester1-Hair-Loss-Projet/Images/footer\ picture.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.foot-menu h4
+{
+  color: white;
+  font-weight: 900;
+}
+.fot-logo a
+{
+  color: white;
+  text-decoration: none;
+}
+.foot-menu a
+{
+  color: #bbb;
+  text-decoration: none;
+}
+.foot-menu a:hover
+{
+  color: white;
+}

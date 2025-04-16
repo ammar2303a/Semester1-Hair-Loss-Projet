@@ -1,0 +1,142 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+.logo-nav
+{
+    width: 220px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.nav-item 
+{
+    margin: 20px;
+}
+.nav-icons i
+{
+    margin: 10px;
+}
+.category-slide
+{
+  height: 60vh;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Semester1-Hair-Loss-Projet/Images/gallery-slide.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.about-heading h2
+{
+    font-size: 48px;
+    margin-top: 30px;
+}
+.about-button p
+{
+    font-size: 18px;
+    color: grey;
+    margin-top: 120px;
+}
+.about-button button
+{
+    background-color: #abc502;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    /* margin: 10px; */
+    border-radius: 5px;
+}
+.about-button button:hover
+{
+  color: black;
+  transition: 0.5s;
+  background-color: greenyellow;
+  border: 1px solid yellow;
+}
+.our-stylers
+{
+    text-align: center;
+    margin-top: 40px;
+}
+.stylers-card img
+{
+    width: 80%;  
+    height: 80%;
+}
+/* .stylers-card
+{
+    border: 0.5px solid grey;
+} */
+.about-welcome img
+{
+  width: 100%;
+}
+@media (max-width:400px) {
+  .about-welcome img
+  {
+    width: 300px;
+  }
+}
+@media (max-width:450px) {
+  .about-welcome img
+  {
+    width: 350px;
+  }
+}
+/* Footer */
+.fot-logo img
+{
+  margin-top: 5px;
+  width: 300px;
+  height: 100px;
+  color: #fff;
+}
+.footer-bkg
+{
+  background-image: linear-gradient(rgba(0,0,0,1.0),rgba(0,0,0,0.5)), url(../Semester1-Hair-Loss-Projet/Images/footer\ picture.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.foot-menu h4
+{
+  color: white;
+  font-weight: 900;
+}
+.fot-logo a
+{
+  color: white;
+  text-decoration: none;
+}
+.foot-menu a
+{
+  color: #bbb;
+  text-decoration: none;
+}
+.foot-menu a:hover
+{
+  color: white;
+  text-decoration: none;
+}
+.footer-icons a:hover
+{
+  background-color: grey
+}
+.ourstylers-heading h1{
+  font-weight: 800;
+}
+.about-heading h2{
+  font-weight: 800;
+}
+.slide-text h1
+{
+  /* margin-top: 20px; */
+  margin-left: 45px;
+  padding-top: 144px;
+  font-size: 60px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: rgb(179, 170, 170);
+
+}
